@@ -1,0 +1,290 @@
+*{
+    font-family: cursive;
+}
+.header_a{
+    display: flex;
+    justify-content: space-between;
+ }
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.menu{
+    display: flex;
+    list-style: none;
+    margin:20px;
+    }
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+.banner{
+    background-image: url("/banner2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:auto;
+    position: relative;
+}
+.container-1{
+    width: auto;
+    /* height: 500px; */
+}
+.title-{
+    text-align: center;
+    font-size: 30px;
+}
+.line-{
+    height: 3px;
+    width: 200px;
+    text-decoration: solid black;
+    background-color: black;
+    margin:auto auto;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: crimson;
+}
+.box--{
+    display: flex;
+   justify-content: space-between;
+    /* height: 200px; */
+}
+.box--left{
+    
+    background-image: url("3.jpg");
+    width: 330px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 35px;
+}
+/* .box--right{
+    text-align: center;
+    word-spacing: 2px;
+    background-color: aquamarine;
+    width: 900px;
+    
+} */
+.box---{
+    text-align: center;
+    word-spacing: 2px;
+    background-color:gainsboro;
+    width: 900px;
+    border-left: 2px solid coral;
+    padding-top: 25px;
+}
+.box-{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    width: 100%;
+   }
+   .box-1{
+    padding: 20px;
+text-align: center;
+width:34%;
+background-color: white;
+font-size: 20px;
+
+   }
+.title{
+    text-align: center;
+    /* padding: 10px; */
+    justify-content: space-between;
+    font-size: 30px;
+}
+.line{
+    height: 3px;
+    width: 200px;
+    text-decoration: solid black;
+    background-color: black;
+    margin:auto auto;
+}
+.container-2{
+    width: auto;
+    background-color: coral;
+    }
+    .container-2{
+        padding: 20px;
+    }
+
+     #progressHtml{
+        overflow: hidden;
+        height: 20px;
+         background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+    }
+    #progressDoneHtml{
+        height: 100%;
+        /* color: antiquewhite; */
+        width: 0;
+        text-align: 0;
+        background:crimson ;
+        transition: 3s ease 0.3s;
+        
+    }
+       
+    #progressCss{
+        overflow: hidden;
+        height: 20px;
+         background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+    }
+    #progressDoneCss{
+        height: 100%;
+        color: antiquewhite;
+        width: 0;
+        text-align: center;
+        background:crimson ;
+        transition: 3s ease .3s;
+    }
+    /* #container-2 #progressSass{
+        overflow: hidden;
+        height: 20px;
+         background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+    }
+    #container-2 #progressDoneSass{
+        height: 100%;
+        color: antiquewhite;
+        width: 0;
+        text-align: center;
+        background:crimson ;
+        transition: 1s ease .3s;
+    }
+    #container-2 #progressBootstrap{
+        overflow: hidden;
+        height: 20px;
+         background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+    }
+    #container-2 #progressDoneBootstrap{
+        height: 100%;
+        color: antiquewhite;
+        width: 0;
+        text-align: center;
+        background:crimson ;
+        transition: 1s ease .3s;
+    } */
+    #progressJavascript{
+        overflow: hidden;
+        height: 20px;
+         background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+    }
+    #progressDoneJavascript{
+        height: 100%;
+        color: antiquewhite;
+        width: 0;
+        text-align: center;
+        background:crimson ;
+        transition: 3s ease .3s;
+    }
+    #progressReactjs{
+        overflow: hidden;
+        height: 20px;
+         background: #ccc;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+    }
+    #progressDoneReactjs{
+        height: 100%;
+        color: antiquewhite;
+        width: 0;
+        text-align: center;
+        background:crimson ;
+        transition: 3s ease .3s;
+    }
+    .container-3 h1{
+        text-align: center;
+    }
+    .container--3{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        }
+        .container--3 ul{
+            list-style: none;
+            display: flex;
+            text-align: center;
+        }
+        .container--3 p{
+            border: 1px solid coral;
+            border-radius: 5px;
+            text-align: center;
+            color: black;
+        }
+   .container--3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   }
+    .text {
+        font-size: 20px;
+       
+        text-align:justify;
+        border: 2px coral;
+    }
+    .followers{
+        display: flex;
+        
+        background-color: coral;
+    }
+    .view{
+        padding-top: 20px;
+        width: 34%;
+        text-align: center;
+        color: white;
+    }
+    .number{
+        font-size: 50px;
+    }
+
+    .footer{
+        background-color: gray;
+        margin: 0px;
+        padding: 0px;
+        height: 500px;
+        }
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .col{
+       list-style: none;
+       margin: 20px;
+       width: 25%;
+       padding:  0 15px;
+      }
+    .col h2,h4{
+        font-size: 20px;
+        color: black;
+        margin-bottom: 30px;
+        line-height: 1.5;
+    }
+    .col a{
+        font-size: 20px;
+        line-height: 40px;
+        }
+     .col li a{
+        color:black;
+        padding-left:15px;
+    }
+     .col li a:hover{
+        color:#ffffff;
+        padding-left:15px;
+      }
+     .social-links a:hover{
+        color:#ffffff;
+        padding-left:15px;
+      }
+     .col  a:hover{
+        color:#ffffff;
+        padding-left:15px;
+      }
