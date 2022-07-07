@@ -52,20 +52,13 @@ p{
     /* height: 200px; */
 }
 .box--left{
-    
     background-image: url("3.jpg");
     width: 330px;
     height: 200px;
     padding: 20px;
     margin-left: 35px;
 }
-/* .box--right{
-    text-align: center;
-    word-spacing: 2px;
-    background-color: aquamarine;
-    width: 900px;
-    
-} */
+
 .box---{
     text-align: center;
     word-spacing: 2px;
@@ -118,7 +111,7 @@ font-size: 20px;
     }
     #progressDoneHtml{
         height: 100%;
-        /* color: antiquewhite; */
+        color: antiquewhite;
         width: 0;
         text-align: 0;
         background:crimson ;
@@ -141,36 +134,7 @@ font-size: 20px;
         background:crimson ;
         transition: 3s ease .3s;
     }
-    /* #container-2 #progressSass{
-        overflow: hidden;
-        height: 20px;
-         background: #ccc;
-        border-radius: 5px;
-        margin-bottom: 0.6rem;
-    }
-    #container-2 #progressDoneSass{
-        height: 100%;
-        color: antiquewhite;
-        width: 0;
-        text-align: center;
-        background:crimson ;
-        transition: 1s ease .3s;
-    }
-    #container-2 #progressBootstrap{
-        overflow: hidden;
-        height: 20px;
-         background: #ccc;
-        border-radius: 5px;
-        margin-bottom: 0.6rem;
-    }
-    #container-2 #progressDoneBootstrap{
-        height: 100%;
-        color: antiquewhite;
-        width: 0;
-        text-align: center;
-        background:crimson ;
-        transition: 1s ease .3s;
-    } */
+    
     #progressJavascript{
         overflow: hidden;
         height: 20px;
@@ -178,7 +142,7 @@ font-size: 20px;
         border-radius: 5px;
         margin-bottom: 0.6rem;
     }
-    #progressDoneJavascript{
+    #progressDonejs{
         height: 100%;
         color: antiquewhite;
         width: 0;

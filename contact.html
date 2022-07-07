@@ -21,10 +21,10 @@
                 
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="actvity.html">Activity</a></li>
+                    <li><a href="activity.html">Activity</a></li>
                     <li><a href="gallary.html">Gallary</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                
+                    <li><a href="blog.html">Blog</a></li>
             </div>
         </div>
         </div>
@@ -33,29 +33,37 @@
         <h1>CONTACT ME</h1>
         <div class="line"></div>
         <h3>Here is how you can reach me</h3>
-        <form class="form">
-            <div class="row">
+        <form class="form-control">
+            <div class="text-feilds">
                 <div class="labels">
+                    
+                    <input type="text" class="input" >
                     <label>Name</label>
-                    <input type="text" class="input" >
                 </div>
                 <div class="labels">
+                    
+                    <input type="text" class="input" >
                     <label>Subject</label>
-                    <input type="text" class="input" >
                 </div>
-            </div>
-            <div class="row">
+             </div>
+            <div class="text-feilds">
                 <div class="labels">
+                    
+                    <input type="text" class="input" >
                     <label>Email</label>
-                    <input type="text" class="input" >
                 </div>
                 <div class="labels">
-                    <label>Phone No</label>
+                    
                     <input type="text" class="input"  >
+                    <label>Phone No</label>
                 </div>
             </div>
-            <label>Message</label>
+            <div class="text-feilds">
+            <div class="labels">
             <textarea rows="4" placeholder="Enter Message"></textarea>
+        </div>
+    </div>
+            </div>
             <button type="submit" text="submit">Submit</button>
         </form>
 
@@ -99,9 +107,10 @@
                     <b>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="actvity.html">Activity</a></li>
+                    <li><a href="activity.html">Activity</a></li>
                     <li><a href="gallary.html">Gallary</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
                 </b>
                 </div>
                 <div class="col">
@@ -125,6 +134,15 @@
             
         </div>
     </footer>
+    <script>
+        const labelss = document.querySelectorAll("label");
+        labelss.forEach((label) => {
+            labelss.innerHTML=labelss.innerText.split("").map((letter,idx)=>{
+                return `<span style="transition-delay:${idx*50}ms">${letter}</span>`;
+            })
+            .join("");
+        });
+    </script>
     
 </body>
 </html>
