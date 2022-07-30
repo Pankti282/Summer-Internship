@@ -80,6 +80,7 @@ a{
     
      }
      
+     
  .box--{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -118,28 +119,27 @@ padding-left: 120px;
     }
  .labels{
     width: 300px;
-    margin: 5px 0 25px;
+    margin: 20px 0 40px;
   position: relative;  
   margin-left: 10%;
-  bottom: 10px;
+  /* bottom: 10px; */
 } 
   .labels input{
     background-color: transparent;
-    border: none;
+    border: 0;
     border-bottom: 1px solid black;
     display: block;
-    position: relative;
+    /* position: relative; */
     outline: none;
-    /* padding: 5px; */
+    /* padding: 15px 0; */
     width: 100%;
-    margin: 20px;
+    /* margin: 20px; */
      }
    .labels label{
     position: absolute;
+    top: 1px;
      left: 0;
-     top:10px;
-     margin-left: 15px;
-    }
+        }
 
   textarea{
     width: 240%;
@@ -161,10 +161,7 @@ button{
     margin-left: 650px;
     
 }
-.text h2{
-    padding: 50px;
-
-} 
+ 
 
 
 .labels input:focus,
@@ -179,11 +176,15 @@ button{
   display: inline-block;
   font-size: 16px;
   min-width: 5px;
-  /* transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
-  transition: 0.09s ease;
+  transition: 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
-.labels input:focus + label span,
-.labels input:valid + label span {
-  color: #444;
+/* .labels input:focus + label span, */
+/* .labels input:valid + label span { */
+  /* color: #444;
   transform: translateY(-30px);
+} */
+
+.labels input:focus + label span,
+.labels input:valid + label span{
+    transform: translateY(-30px);
 }

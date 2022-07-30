@@ -22,7 +22,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="activity.html">Activity</a></li>
-                    <li><a href="gallary.html">Gallary</a></li>
+                    
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="blog.html">Blog</a></li>
             </div>
@@ -37,25 +37,33 @@
             <div class="text-feilds">
                 <div class="labels">
                     
-                    <input type="text" class="input" >
-                    <label>Name</label>
+                    <input type="text"  pattern="[a-zA-Z].{2,}"
+                    title="Must be alphbets only,minimum 3 " required>
+                <label>Name</label>
+
                 </div>
                 <div class="labels">
                     
-                    <input type="text" class="input" >
+                    <input type="text"  required>
                     <label>Subject</label>
+
+                    
+
                 </div>
              </div>
             <div class="text-feilds">
                 <div class="labels">
-                    
-                    <input type="text" class="input" >
-                    <label>Email</label>
+                    <input type="email" 
+                            title="Email format must be ___@___.__"
+                            required>
+                            
+                        <label>Email</label>
                 </div>
                 <div class="labels">
-                    
-                    <input type="text" class="input"  >
-                    <label>Phone No</label>
+                    <input type="text" class="text-input phone-input" 
+                            title="Exactly 10 digits  " required>
+                           
+                        <label>Phone No</label>
                 </div>
             </div>
             <div class="text-feilds">
@@ -68,7 +76,7 @@
         </form>
 
 </div>
-        
+        <footer>
         <div class="box--">
             <div class="box--1">
                 <a> <i class="fa-regular fa-id-badge  fa-2x process-icon my-2"></i></a>
@@ -108,7 +116,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="activity.html">Activity</a></li>
-                    <li><a href="gallary.html">Gallary</a></li>
+                    
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="blog.html">Blog</a></li>
                 </b>
@@ -135,9 +143,10 @@
         </div>
     </footer>
     <script>
-        const labelss = document.querySelectorAll("label");
+        const labelss = document.querySelectorAll(".labels label");
         labelss.forEach((label) => {
-            labelss.innerHTML=labelss.innerText.split("").map((letter,idx)=>{
+        label.innerHTML= label.innerText.split("")
+            .map((letter,idx)=>{
                 return `<span style="transition-delay:${idx*50}ms">${letter}</span>`;
             })
             .join("");

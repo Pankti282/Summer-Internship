@@ -32,7 +32,7 @@ a{
 }
 .footer{
     background-color: gray;
-    margin: 0px;
+    margin-top: 10px;
     padding: 0px;
     height: 500px;
     }
@@ -89,9 +89,11 @@ a{
   .artical1{
     padding: 10px;
     justify-content: space-between;
-    background-color: gray;
+    background-color: lightcoral;
     line-height: 30px;
     font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
   }
   .show{
     display: inline;
@@ -102,9 +104,11 @@ a{
   .artical2{
     padding: 10px;
     justify-content: space-between;
-    
+    background-color: lightcoral;
     line-height: 30px;
     font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
   }
   .show-1{
     display: inline;
@@ -138,3 +142,4 @@ a{
 #year1{
     margin-right: 5px;
 }
+
